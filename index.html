@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flowise AI</title>
+</head>
+<body>
+    <h1>Welcome to Flowise AI</h1>
+    <p>This is a simple HTML page for your Flowise AI project.</p>
+
+    <script type="module">
+        import Chatbot from "https://cdn.jsdelivr.net/npm/flowise-embed/dist/web.js"
+        Chatbot.init({
+            chatflowid: "580e20d4-a970-48a0-8879-2bf5efcf66e2",
+            apiHost: "http://localhost:3000",
+        })
+    </script>
+    
+</body>
+</html>
